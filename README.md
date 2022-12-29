@@ -16,6 +16,7 @@ If bundler is not being used to manage dependencies, install the gem by executin
 
 - Go through each file under lib directory.
 - Use the sample class and spec as a starting point.
+- Run `bin/console` to start the interactive console.
 
 ## Development
 

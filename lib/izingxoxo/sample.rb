@@ -3,6 +3,14 @@
 module Izingxoxo
   # Sample class
   class Sample
-    def initialize; end
+    attr_accessor :param
+
+    def initialize(param:)
+      @param = param
+    end
+
+    def call
+      puts "HELLO #{param.upcase}!!"
+    end
   end
 end
