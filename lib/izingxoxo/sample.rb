@@ -10,7 +10,7 @@ module Izingxoxo
     end
 
     def call
-      puts "HELLO #{param.upcase}!!"
+      "HELLO #{param.upcase}!!"
     end
   end
 end
